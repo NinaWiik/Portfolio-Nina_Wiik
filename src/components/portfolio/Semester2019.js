@@ -33,7 +33,7 @@ function Semester2019() {
             <h1>Semester Project 2</h1>
             <Button onClick={() => scrollToSection(refApp, refB)}>Screenshots</Button>
             <Button onClick={() => scrollToSection(refApp, refC)}>Feedback</Button>
-            <a href="http://piinkydesigns.com/Semester-Project-2/index.html"><Button>Link to Website</Button></a>
+            <a href="http://piinkydesigns.com/Semester-Project-2/index.html"><Button className="weblink">Link to Website</Button></a>
             <section className="scrollRow">
             <Row className="md-4">
             <Col className="GOT">

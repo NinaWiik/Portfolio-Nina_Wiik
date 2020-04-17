@@ -37,12 +37,31 @@ section:first-of-type {
     border-top: 2px solid white;
 }
 
+.RowB {
+    text-align: left;
+}
 
 .btn-primary {
     margin: 20px 10px;
     display: inline;
     min-width: 150px;
+    background-color: #005d6a;
+    border: 2px solid white;
 }
+
+.btn-primary:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+
+.weblink {
+    background: #f3c088;
+    color: #005d6a;
+    font-weight: bold;
+}
+
 
 section .btn-primary {
     display: block;
