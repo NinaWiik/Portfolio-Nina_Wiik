@@ -1,0 +1,12 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: #005d6a;
+    font-weight: bold;
+}
+
+.active>.nav-link, .navbar-dark .navbar-nav .nav-link.active {
+    color: grey;
+}
+
+.hover>.nav-link, .navbar-dark .navbar-nav .nav-link.hover {
+    color: #d37c15;
+}

@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-image: url(../../assets/jason-blackeye-edu_UJYxJBA-unsplash.jpg);
+    min-width: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#root {
+    height: 100%;
+}
+
+.main-heading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vw;
+    color: #005d6a;
+}
+
+.sub-heading {
+    position: absolute;
+    left: 50%;
+    top: 58%;
+    transform: translate(-50%, -50%);
+    font-size: 2vW;
+    color: #005d6a;
+}

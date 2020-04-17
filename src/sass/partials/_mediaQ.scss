@@ -1,0 +1,274 @@
+// TABLET
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .navbar-dark .navbar-toggler {
+        background-color: #005d6a;
+    }
+
+    .sub-heading {
+        font-size: 2em;
+        margin-top: -20px;
+    }
+
+    .main-heading {
+        font-size: 4.5em;
+    }
+  
+    // ABOUT
+    .aboutRow {
+        margin: 10px 10px;
+        display: block;
+        font-size: 1.3em;
+    }
+
+    .aboutImg {
+        width: 85%;
+    }
+
+    .aboutParagraph, h2 {
+        margin-left: 10px;
+    }
+    
+    // CONTACT
+    .contactRow, .contactRow2 {
+        margin: 50px 10px;
+        display: block;
+        font-size: 1.3em;
+    }
+
+    .SMIcon {
+        width: 20%;
+    }
+
+    .contactRow2 {
+        height: 10em;
+    }
+
+    // PORTFOLIO
+
+    .row {
+        margin-left: 15px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h4, h5 {
+        margin-top: 10px;
+    }
+
+    h5 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .btn-primary {
+        display: none;
+    }
+
+    .scrollRow {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        height: 100%;
+        margin-top: 20px;
+        border: 2px solid white;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .scrollRowA {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        height: 100%;
+        display: block;
+        margin-top: 20px;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+
+    .scrollRowB {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        height: 100%;
+        display: block;
+        margin-top: 20px;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+
+    .screenshot {
+        width: 60%;
+    }
+
+    .screenshot2 {
+        width: 100%;
+        display: block;
+    }
+
+    section {
+        scroll-snap-align: none;
+        height: 100%;
+        margin: 0;
+        margin-top: 20px;
+        border: 2px solid white;
+        border-radius: 10px;
+        text-align: left;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+        color: white;
+    }
+
+    section .btn-primary {
+        display: none;
+    }
+    .scroll {
+
+    }
+
+    .col {
+        padding-left: 0;
+        flex-basis: auto;
+    }
+
+  }
+  
+
+
+
+// PHONE
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .navbar-dark .navbar-toggler {
+        background-color: #005d6a;
+    }
+
+    .sub-heading {
+        font-size: 1.2em;
+        margin-top: -20px;
+    }
+
+    .main-heading {
+        font-size: 2.5em;
+    }
+    // ABOUT
+    .aboutRow {
+        margin: 10px 10px;
+        display: block;
+    }
+
+    .aboutImg {
+        width: 85%;
+    }
+
+    .aboutParagraph, h2 {
+        margin-left: 10px;
+    }
+
+
+    // CONTACT
+    .contactRow, .contactRow2 {
+        margin: 10px 10px;
+        display: block;
+    }
+
+    .SMIcon {
+        width: 30%;
+    }
+
+    // PORTFOLIO
+
+    .row {
+        margin-left: 15px;
+    }
+
+    h1 {
+        font-size: 1.9em;
+    }
+
+    h4, h5 {
+        margin-top: 10px;
+    }
+
+    h5 {
+        text-align: center;
+    }
+
+    .btn-primary {
+        display: none;
+    }
+
+    .scrollRow {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        height: 100%;
+        margin-top: 20px;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+
+    .scrollRowA {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        height: 100%;
+        display: block;
+        margin-top: 20px;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+
+    .scrollRowB {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        height: 100%;
+        display: block;
+        margin-top: 20px;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+
+    .screenshot {
+        width: 80%;
+    }
+
+    .screenshot2 {
+        width: 100%;
+        display: block;
+    }
+
+    section {
+        scroll-snap-align: none;
+        height: 100%;
+        margin: 0;
+        margin-top: 20px;
+        border: 2px solid white;
+        border-radius: 10px;
+        color: lightgray;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    section .btn-primary {
+        display: none;
+    }
+    .scroll {
+
+    }
+
+    .col {
+        padding-left: 0;
+        flex-basis: auto;
+    }
+  }

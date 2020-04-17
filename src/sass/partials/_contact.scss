@@ -1,0 +1,32 @@
+.contactRow {
+    background-color: rgba($color: #FFFFFF, $alpha: 0.4);
+    margin-top: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 10em;
+    margin-right: 10em;
+    text-align: center;
+}
+
+
+.SMIcon {
+    width: 13%;
+    padding: 20px 20px 0 20px;
+}
+
+.SMIcon:hover {
+    width: 14%;
+}
+
+
+.contactRow2 {
+    background-color: rgba($color: #FFFFFF, $alpha: 0.6);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 10em;
+    margin-right: 10em;
+    text-align: center;
+    height: 12em;
+    margin-top: 40px;
+}
+
